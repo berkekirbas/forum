@@ -1,0 +1,23 @@
+{
+  "name": "forum-api",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --experimental-modules ./www.js",
+    "start:dev": "nodemon --experimental-modules ./www.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "bunyan": "^1.8.15",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "helmet": "^5.0.2",
+    "spdy": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
